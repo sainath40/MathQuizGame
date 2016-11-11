@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="startpage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:startpage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Azure">
+        <Image Source="Assets\logo.jpg"></Image>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="658,121,0,0" TextWrapping="Wrap" Text="NATH Games" VerticalAlignment="Top" Height="94" Width="490" FontSize="72" Foreground="#FFF7F7F9" Opacity="3" RequestedTheme="Dark" FontWeight="Bold" FontFamily="Showcard Gothic">
+        </TextBlock>
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="1028,0,0,55" VerticalAlignment="Bottom" Height="255" Width="165" Click="button_Click">
+            <Image Source="Assets\start.jpg" Margin="-320,-6,-324,-6" RenderTransformOrigin="0.5,0.5"/>
+        </Button>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="333,159,0,0" TextWrapping="Wrap" Text="Powered By" VerticalAlignment="Top" Height="94" Width="288" FontSize="48" FontFamily="Sitka Small" Foreground="#FFF3E9E9"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="startpage.fourth"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:startpage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Azure">
+        <Image Source="Assets\logo.jpg" Opacity="0.8"></Image>
+        <TextBlock x:Name="block1" HorizontalAlignment="Left" Margin="72,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="132" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Text="" Opacity="2" />
+        <TextBlock x:Name="block2" HorizontalAlignment="Left" Margin="168,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF5ECEC" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="block3" HorizontalAlignment="Left" Margin="269,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" Foreground="#FF0C0101" FontSize="48" FontFamily="Showcard Gothic" Opacity="2"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="434,115,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <Popup/>
+        <Button x:Name="button2" Content="Submit" HorizontalAlignment="Left" Margin="504,630,0,0" VerticalAlignment="Top" Height="80" Width="257" FontSize="48" FontFamily="Showcard Gothic" Click="button2_Click"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Margin="490,115,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBlock x:Name="block9" HorizontalAlignment="Left" Margin="274,317,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block6" HorizontalAlignment="Left" Margin="274,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block7" HorizontalAlignment="Left" Margin="72,323,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="132" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block4" HorizontalAlignment="Left" Margin="72,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="132" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block8" HorizontalAlignment="Left" Margin="168,317,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF9F2F2" FontSize="48" FontFamily="Rockwell Extra Bold" Opacity="2"/>
+        <TextBlock x:Name="block5" HorizontalAlignment="Left" Margin="168,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF9F1F1" FontSize="48" FontFamily="Rockwell Extra Bold" Opacity="2"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="434,305,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="80" Width="92" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="434,202,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="69" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBox x:Name="box3" HorizontalAlignment="Left" Margin="490,310,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Margin="490,210,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBlock x:Name="block12" HorizontalAlignment="Left" Margin="269,423,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block10" HorizontalAlignment="Left" Margin="72,434,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="132" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block13" HorizontalAlignment="Left" Margin="72,529,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="132" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block15" HorizontalAlignment="Left" Margin="269,523,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block14" HorizontalAlignment="Left" Margin="168,523,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF9F1F1" FontSize="48" FontFamily="Rockwell Extra Bold" Opacity="2"/>
+        <TextBlock x:Name="block11" HorizontalAlignment="Left" Margin="157,423,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF7EEEE" FontSize="48" FontFamily="Rockwell Extra Bold" Opacity="2"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="434,510,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="80" Width="92" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="434,413,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="80" Width="92" FontSize="72" FontFamily="Stencil"/>
+        <TextBox x:Name="box5" HorizontalAlignment="Left" Margin="490,516,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box4" HorizontalAlignment="Left" Margin="490,413,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBlock x:Name="block19" HorizontalAlignment="Left" Margin="627,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block16" HorizontalAlignment="Left" Margin="627,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block28" HorizontalAlignment="Left" Margin="632,523,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block25" HorizontalAlignment="Left" Margin="627,423,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block22" HorizontalAlignment="Left" Margin="627,317,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block30" HorizontalAlignment="Left" Margin="898,523,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block27" HorizontalAlignment="Left" Margin="898,423,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block24" HorizontalAlignment="Left" Margin="898,317,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block21" HorizontalAlignment="Left" Margin="898,218,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block18" HorizontalAlignment="Left" Margin="898,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="160" FontSize="48" Foreground="#FF0C0101" FontFamily="Showcard Gothic" Opacity="2" />
+        <TextBlock x:Name="block20" HorizontalAlignment="Left" Margin="792,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF3EEEE" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="block17" HorizontalAlignment="Left" Margin="792,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF0E6E6" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="block29" HorizontalAlignment="Left" Margin="792,523,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFFDFAFA" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="block26" HorizontalAlignment="Left" Margin="792,423,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF3ECEC" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="block23" HorizontalAlignment="Left" Margin="792,323,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="101" Foreground="#FFF1E8E8" FontSize="48" FontFamily="Rockwell Extra Bold" Text="" Opacity="2"/>
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="1063,413,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Margin="1063,305,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="1063,212,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="1063,115,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" Margin="1063,510,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="65" Width="87" FontSize="72" FontFamily="Stencil"/>
+        <TextBox x:Name="box10" HorizontalAlignment="Left" Margin="1112,516,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box9" HorizontalAlignment="Left" Margin="1112,413,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box8" HorizontalAlignment="Left" Margin="1112,305,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box7" HorizontalAlignment="Left" Margin="1112,210,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+        <TextBox x:Name="box6" HorizontalAlignment="Left" Margin="1112,115,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="137" FontSize="48" FontFamily="Rockwell Extra Bold"/>
+
+    </Grid>
+</Page>

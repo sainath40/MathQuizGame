@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="startpage.third"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:startpage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Azure" Margin="-3,-3,3,3">
+        <Image Source="Assets\logo.jpg" Opacity="0.8"></Image>
+        <Button x:Name="button1" Content="Arithmetic" HorizontalAlignment="Left" Margin="198,216,0,0" VerticalAlignment="Top" Height="119" Width="257" FontSize="36"  Foreground="#FFFBF2F2" FontFamily="Showcard Gothic"/>
+        <Button x:Name="button2" Content="inequality" HorizontalAlignment="Left" Margin="832,498,0,0" VerticalAlignment="Top" Height="113" Width="245" FontSize="36" Foreground="#FFFDF6F6" FontFamily="Showcard Gothic" Click="button2_Click"/>
+        <Button x:Name="button3" Content="exponents" HorizontalAlignment="Left" Margin="519,354,0,0" VerticalAlignment="Top" Height="125" Width="254" FontSize="36" FontFamily="Showcard Gothic" Foreground="#FFFBF6F6" Click="button3_Click"/>
+    </Grid>
+</Page>       
